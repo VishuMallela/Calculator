@@ -1,5 +1,10 @@
 #Program make a simple calculator that can add, subtract, multiply and divide using functions
 
+print("Welcome to calculator.py by VishuMallela!")
+print("View my profile @ https://github.com/VishuMallela")
+print("Hope you enjoy this project!")
+print("Don't forget to check out my other projects.")
+
 # define functions
 def add(x, y):
    """This function adds two numbers"""
@@ -35,12 +40,24 @@ num2 = int(input("Enter second number: "))
 
 if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
+   print("Thank you for using this program!")
+   print("Loop function to be added soon!")
+   print("Restart this program in the shell to view it again!")
 
 elif choice == '2':
    print(num1,"-",num2,"=", subtract(num1,num2))
+   print("Thank you for using this program!")
+   print("Loop function to be added soon!")
+   print("Restart this program in the shell to view it again!")
 
 elif choice == '3':
    print(num1,"*",num2,"=", multiply(num1,num2))
+   print("Thank you for using this program!")
+   print("Loop function to be added soon!")
+   print("Restart this program in the shell to view it again!")
 
 else:
    print(num1,"/",num2,"=", divide(num1,num2))
+   print("Thank you for using this program!")
+   print("Loop function to be added soon!")
+   print("Restart this program in the shell to view it again!")
